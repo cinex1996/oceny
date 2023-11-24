@@ -3,9 +3,7 @@ import java.util.Scanner;
 
 public class largets_numbers {
     void largest_number() {
-
-        boolean value = true;
-        while (value) {
+        while (true) {
             int[] tablle = new int[3];
             int[] new_table=new int[3];
             Scanner scanner = new Scanner(System.in);
